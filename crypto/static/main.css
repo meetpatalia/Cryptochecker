@@ -1,0 +1,9 @@
+#price-page {
+	top: 50%;
+    position: absolute;
+    left: 35%;
+}
+
+#search-error {
+	color: #e86161 !important;
+}

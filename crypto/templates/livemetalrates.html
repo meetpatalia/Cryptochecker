@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron">
+      {% for key, value in metal_price.items %}
+      <tr>
+        <strong></strong>: {{ gold_price }}</br>
+		    <strong></strong>: {{ silver_price }}</br>
+		    <!-- <strong>silver</strong>: {{ value.DISPLAY.xagPrice}}</br> -->
+      </tr>
+      {% endfor %}
+</div>
+
+{% endblock %}
